@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\obuda\obuda\bin\Debug\net6.0\obuda.exe
+C:\Users\user\source\repos\obuda\obuda\bin\Debug\net6.0\obuda.deps.json
+C:\Users\user\source\repos\obuda\obuda\bin\Debug\net6.0\obuda.runtimeconfig.json
+C:\Users\user\source\repos\obuda\obuda\bin\Debug\net6.0\obuda.dll
+C:\Users\user\source\repos\obuda\obuda\bin\Debug\net6.0\obuda.pdb
+C:\Users\user\source\repos\obuda\obuda\obj\Debug\net6.0\obuda.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\obuda\obuda\obj\Debug\net6.0\obuda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\obuda\obuda\obj\Debug\net6.0\obuda.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\obuda\obuda\obj\Debug\net6.0\obuda.AssemblyInfo.cs
+C:\Users\user\source\repos\obuda\obuda\obj\Debug\net6.0\obuda.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\obuda\obuda\obj\Debug\net6.0\obuda.dll
+C:\Users\user\source\repos\obuda\obuda\obj\Debug\net6.0\refint\obuda.dll
+C:\Users\user\source\repos\obuda\obuda\obj\Debug\net6.0\obuda.pdb
+C:\Users\user\source\repos\obuda\obuda\obj\Debug\net6.0\obuda.genruntimeconfig.cache
+C:\Users\user\source\repos\obuda\obuda\obj\Debug\net6.0\ref\obuda.dll
