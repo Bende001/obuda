@@ -1,25 +1,29 @@
- {
+ using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace obuda
+{
+    class Program
+    {
         static void Main(string[] args)
         {
            
             //1.Feladat
             Console.WriteLine("1. Feladat");
 
-            char[] betuk = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', };
-            var halmbetuk = new HashSet<char>(betuk);
             char[] betuk = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' '};
             var halmazbetuk = new HashSet<char>(betuk);
 
-            Console.Write("Írja be a kívánt szöveget kizárólag az angol abc betűit alkalmazva: ");
-            string bekert = Console.ReadLine();
-            char[] betuzbekert = bekert.ToCharArray();
             //szöveg bekérése
             Console.Write("üzenet: ");
             string bekertszoveg = "";
             char[] betuzbekertszoveg = bekertszoveg.ToCharArray();
             int helyesbetu = 0;
 
-            foreach (char betu in betuzbekert)
                 //szöveg vizsgálata
                 while (helyesbetu == 0)
                 {
@@ -78,7 +82,6 @@
             //szöveg és kulcs számmá alakítása, rejtjelzett szöveggé alakítása
             for (int i = 0; i < betuzbekertszoveg.Length; i++)
             {
-                if (!halmbetuk.Contains(betu))
                 for (int j = 0; j < betuk.Length; j++)
                 {
                     if (betuzbekertszoveg[i] == betuk[j])
@@ -89,8 +92,6 @@
                 }
                 for (int k = 0; k < betuk.Length; k++)
                 {
-                    Console.WriteLine("Kérem csak az angol abc betűit használja. ");
-                    break;
                     if (betuzbekertkulcs[i] == betuk[k])
                     {
                         kulcsszam = k;
@@ -110,3 +111,4 @@
             Console.ReadKey();
         }
     }
+}
